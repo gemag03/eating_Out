@@ -51,7 +51,6 @@ In the frequency chart there were not a lot of black or other eating out. We see
 
 
 
-
 ```{r}
 dd2 <- mydata %>% group_by(race,eatout) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
@@ -66,3 +65,68 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=eatout)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
+
+
+
+
+The left graph is by count and the right one is by percent.We can still see whites have the higher bar for eating out.Both the plots support what we see.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
