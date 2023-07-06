@@ -74,11 +74,15 @@ The left graph is by count and the right one is by percent.We can still see whit
 
 
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 
 
-
-
+In our numerical results we can see the top % is whites eating out. 70% of blacks were eating out and other is about 72%. Whites have their percentage in the high 80s which is more than blacks and others.
 
 
 
