@@ -47,3 +47,11 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 
 
+In the frequency chart there were not a lot of black or other eating out. We see the highest bar comes from white people. Same goes for the percent plot.It has the highest bar.
+
+
+
+
+
+
+
