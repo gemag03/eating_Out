@@ -86,14 +86,18 @@ In our numerical results we can see the top % is whites eating out. 70% of black
 
 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 
 
 
-
-
-
+The p value of white is greater than 0.85 and the p value is lower for black.The black and white have a difference of 2.2 eating out.The odds between blacks and whites is somehwere were 0 is between 0 and 1.49. These two methods are similar to each other. 
+ 
 
 
 
